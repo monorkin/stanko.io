@@ -1,0 +1,6 @@
+[submodule "stanko.io-backend"]
+	path = stanko.io-backend
+	url = git@github.com:stankec/stanko.io-backend.git
+[submodule "stanko.io-frontend"]
+	path = stanko.io-frontend
+	url = git@github.com:stankec/stanko.io-frontend.git
