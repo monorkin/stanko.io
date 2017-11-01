@@ -1,0 +1,13 @@
+version: '2.3'
+services:
+  frontend:
+    build: ./stanko.io-frontend
+    volumes:
+      - ./stanko.io-frontend:/app
+    env_file: ./stanko.io-frontend/.env
+    ports:
+      - "8080:3000"
+    # depends_on:
+    #   - backend
+    tty: true
+    stdin_open: true
