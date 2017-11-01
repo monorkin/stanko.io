@@ -1,10 +1,10 @@
 version: '2.3'
 services:
   frontend:
-    build: ./stanko.io-frontend
+    build: ./frontend
     volumes:
-      - ./stanko.io-frontend:/app
-    env_file: ./stanko.io-frontend/.env
+      - ./frontend:/app
+    env_file: ./frontend/.env
     ports:
       - "8080:3000"
     # depends_on:
