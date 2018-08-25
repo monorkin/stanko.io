@@ -11,3 +11,20 @@ services:
     #   - backend
     tty: true
     stdin_open: true
+
+  # backend:
+  #   build: ./backend
+  #   volumes:
+  #     - ./backend:/app
+  #   env_file: ./backend/.env
+  #   ports:
+  #     - "8081:3000"
+  #   depends_on:
+  #     - postgres
+  #   tty: true
+  #   stdin_open: true
+
+  # postgres:
+  #   image: "postgres:9.6"
+  #   volumes:
+  #     - ./tmp/db/data:/var/lib/postgresql/data

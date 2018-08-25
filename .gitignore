@@ -1,0 +1,6 @@
+# Docker storage
+/tmp
+
+# VIM files
+*.swp
+tags
